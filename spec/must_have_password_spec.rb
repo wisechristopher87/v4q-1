@@ -1,7 +1,7 @@
 
 describe "As a user I must have a password" do
 	
-    it 'Given I try to make and appointment'
+    it 'Given I try to make an appointment'
     
     it 'When I do not input a password' 
     
