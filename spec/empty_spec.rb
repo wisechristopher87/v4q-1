@@ -1,9 +1,9 @@
 
-describe "As a user I must have email to register" do
+describe "As a user I must have a password" do
 	
-    it 'Given I try to register'
+    it 'Given I try to make and appointment'
     
-    it 'When I do not input an email' 
+    it 'When I do not input a password' 
     
     it 'Then I get an error message' 
    
