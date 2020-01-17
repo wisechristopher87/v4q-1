@@ -1,5 +1,5 @@
 
-describe "As a user I can login" do
+describe "As a user I can login to make an appointment" do
 	
     it 'Given I open the application'
     
