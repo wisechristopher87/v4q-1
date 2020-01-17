@@ -1,5 +1,5 @@
 
-describe "As a user I must have a password" do
+describe "As a user I must have a password to login" do
 	
     it 'Given I try to make an appointment'
     
