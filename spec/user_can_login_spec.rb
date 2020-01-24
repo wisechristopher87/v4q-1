@@ -1,12 +1,17 @@
 
 describe "As a user I can login to make an appointment" do
-	
-    it 'Given I open the application'
-    
-    it 'When I click the Make Appointment button'
-    
-    it 'and I enter my credentials' 
-    
-    it 'Then I see the Make Appointment page' 
-   
+
+	    it 'Given I want to make an appointment'
+
+	    it 'and I enter a valid username'
+
+	    it 'and I enter a valid password'
+
+			it 'When I click the ??? button'
+
+			it 'and I enter my appointment information'
+
+			it 'and I click the ?? button'
+
+	    it 'Then I get a confirmation page'
 end

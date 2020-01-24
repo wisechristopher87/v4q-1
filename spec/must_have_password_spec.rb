@@ -1,5 +1,5 @@
 
-describe "A user I must a password to book an appointment" do
+describe  do
 
     it 'Given I want to book an appointment'
 
