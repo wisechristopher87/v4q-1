@@ -1,11 +1,13 @@
 
-describe  do
+describe 'A user must have a password to make an appointment' do
 
-    it 'Given I want to book an appointment'
+    it 'Given I want to make an appointment'
 
-    it 'When I a enter a valid username'
+    it 'and I enter a valid username'
 
-    it 'and I do not enter a password'
+    it 'When I enter a bad password'
+
+    it 'and I click the ??? button'
 
     it 'Then I get an error message'
 
