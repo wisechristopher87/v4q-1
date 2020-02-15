@@ -7,7 +7,7 @@ describe 'A user must have a password to make an appointment' do
 
     it 'When I enter a bad password'
 
-    it 'and I click the ??? button'
+    it 'and I click the Login button'
 
     it 'Then I get an error message'
 
