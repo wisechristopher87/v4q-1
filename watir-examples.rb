@@ -21,8 +21,12 @@ browser.text_field(data_test: 'email').set 'watir_example@example.com'
 browser.text_field(data_test: 'password').set 'password'
 
 browser.button(data_test: 'submit').click
+sleep 5
+
 browser.link(data_test: 'addresses').click
 browser.link(data_test: 'create').click
+
+sleep 5
 
 # TONY: Here you see the code using the "Faker" library (aka gem)
 #       to generate ramdom fake data. This concept is oftern found
@@ -65,6 +69,9 @@ browser.text_field(id: 'address_phone').set Faker::PhoneNumber.phone_number
 browser.checkbox(label: 'Dancing').set
 
 browser.textarea(id: 'address_note').set 'See, filling out a form with Watir is easy!'
+sleep 5
+
 browser.button(data_test: 'submit').click
+sleep 5
 
 browser.close
